@@ -58,6 +58,13 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>io.minio</groupId>
+			<artifactId>minio</artifactId>
+			<version>8.6.0</version> <!-- Replace with the latest version -->
+		</dependency>
+
 	</dependencies>
 
 	<build>
